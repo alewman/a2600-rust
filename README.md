@@ -44,7 +44,7 @@ PyPy 7.3.20):
 | 1 | The TIA against the die: every Sim2600 trace, tia-fpga's 22 and the reference's 17, every pin and both audio pads, half clock by half clock | 39 of 39 pass: 37 match everywhere, `hmove_cycles` and `hmove_resp0` by exactly the reference's counted C27 departures (lum 230 / col 220 / blank 32 and 2638 / 2638 / 352) | `rung1.sh` |
 | 2 | The reference's test programs in lockstep: the Stella issue ROMs, the #699 serial ROMs on the PAL row under each of the seven revisions, the die cartridges | 132 of 132 traces identical | `rung2.sh` |
 | 3 | The smoke group in lockstep (every scheme, PAL, the sweep's residue, classics), 150 slices each | 112 of 112 identical | `rung3.sh` |
-| 4 | Long runs with inputs in lockstep: Pitfall! (3,000 slices), River Raid, Adventure, Kaboom! (paddles), Space Invaders, Pitfall II (DPC), Combat on PAL with both joysticks, BurgerTime (E7), Decathlon (FE), Dragonstomper (AR) | 10 of 10 identical | `rung4.sh` |
+| 4 | Long runs with inputs in lockstep: Pitfall! (3,000 slices), River Raid, Adventure, Kaboom! (paddles), Space Invaders, Pitfall II (DPC), Combat on PAL with both joysticks, BurgerTime (E7), Decathlon (FE), Dragonstomper (AR), and Go Fish! writing and reading its save through a SaveKey (the EEPROM's CRC on every slice) | 11 of 11 identical | `rung4.sh` |
 | 5 | Identification: scheme, Super Chip and source for every local dump against the reference's `cartridge.identify` | 1,586 files, every line identical | `rung5.sh` |
 
 A slice is 262 lines of CPU cycles. The trace (`src/trace.rs`) carries, each
