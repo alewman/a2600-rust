@@ -15,7 +15,7 @@ use std::path::PathBuf;
 use std::rc::Rc;
 
 use a2600_rust::cartridge::{read_image, Options};
-use a2600_rust::controllers::{joystick, Paddles, Pads};
+use a2600_rust::controllers::{joystick, Paddles, Pads, Stick};
 use a2600_rust::machine::{machine, revision};
 use a2600_rust::trace::{crc32, Crc32, HEADER, SLICE_CYCLES};
 use a2600_rust::System;
@@ -158,16 +158,14 @@ fn main() {
                 keys.push_str(&j.keys);
             }
             let has = |c| keys.contains(c);
-            joystick(
-                &mut board.riot,
-                &mut board.tia,
-                port,
-                has('u'),
-                has('d'),
-                has('l'),
-                has('r'),
-                has('f'),
-            );
+            let stick = Stick {
+                up: has('u'),
+                down: has('d'),
+                left: has('l'),
+                right: has('r'),
+                fire: has('f'),
+            };
+            joystick(&mut board.riot, &mut board.tia, port, stick);
         }
         if let Pads::Paddles(p) = &mut board.pads {
             for &(pad, position, from) in &paddles {

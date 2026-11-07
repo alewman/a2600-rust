@@ -30,6 +30,10 @@
 //! that moment; its `pad_source` callable is the `pads` argument of
 //! [`Tia::read_with`], which the board fills from the controllers it owns.
 
+// The loops over P0 P1 M0 M1 BL index several parallel arrays at once, as
+// the reference's do; iterators over one of them would hide that.
+#![allow(clippy::needless_range_loop)]
+
 use crate::audio::Audio;
 
 pub const LINE_STEPS: u32 = 456; // half colour clocks per line

@@ -146,26 +146,30 @@ impl Pads {
     }
 }
 
+/// A joystick's four switches and its button, pressed or not.
+#[derive(Clone, Copy, Debug, Default, PartialEq, Eq)]
+pub struct Stick {
+    pub up: bool,
+    pub down: bool,
+    pub left: bool,
+    pub right: bool,
+    pub fire: bool,
+}
+
 /// A joystick on `port` (0 left, 1 right): four switches and a button.
-pub fn joystick(
-    riot: &mut Riot,
-    tia: &mut Tia,
-    port: usize,
-    up: bool,
-    down: bool,
-    left: bool,
-    right: bool,
-    fire: bool,
-) {
+pub fn joystick(riot: &mut Riot, tia: &mut Tia, port: usize, stick: Stick) {
     let bits = PORT_BITS[port];
     let mut level = riot.input_a | bits.iter().fold(0, |a, b| a | b);
-    for (pressed, bit) in [up, down, left, right].into_iter().zip(bits) {
+    for (pressed, bit) in [stick.up, stick.down, stick.left, stick.right]
+        .into_iter()
+        .zip(bits)
+    {
         if pressed {
             level &= !bit;
         }
     }
     riot.set_input_a(level);
-    tia.fire[port] = fire;
+    tia.fire[port] = stick.fire;
 }
 
 /// The CX20 driving controller (Indy 500): a 2-bit Gray code on pins 1 and 2.
@@ -419,7 +423,7 @@ impl PortA for SaveKey {
         if self.drive != 0 {
             0xFF
         } else {
-            0xFF & !self.sda_bit
+            !self.sda_bit
         }
     }
 }
