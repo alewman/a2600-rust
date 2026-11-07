@@ -1,0 +1,255 @@
+# name	slices	rom	arguments (shell words); $ROMS $RETRO $TEST_ROMS $HARDWARE $DIE_CARTS
+test-108-078-TIMER-timer_test.bas	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/timer_test.bas.bin
+test-108-078-TIMER-testTIMINT_withDelay	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/testTIMINT_withDelay.bin
+test-108-078-TIMER-testTIMINT_flawed	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/testTIMINT_flawed.bin
+test-108-078-TIMER-test5.bas	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/test5.bas.bin
+test-108-078-TIMER-test4.bas	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/test4.bas.bin
+test-108-078-TIMER-test3.bas	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/test3.bas.bin
+test-108-078-TIMER-test2.bas	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/test2.bas.bin
+test-108-078-TIMER-test1.bas	60	$TEST_ROMS/108-078-TIMER.zip	--member TIMER/test1.bas.bin
+test-108-085-pa7_test-pa7_test_INPUT	60	$TEST_ROMS/108-085-pa7_test.zip	--member pa7_test_INPUT.bin
+test-108-085-pa7_test-pa7_test_OUTPUT	60	$TEST_ROMS/108-085-pa7_test.zip	--member pa7_test_OUTPUT.bin
+test-108-086-Test_Roll_01-Test_Roll_01	60	$TEST_ROMS/108-086-Test_Roll_01.zip	--member Test_Roll_01.bin
+test-1101-155-issue1101-issue1101	60	$TEST_ROMS/1101-155-issue1101.zip	--member issue1101/issue1101.bin
+test-19-010-StarsEffect-StarsEffect	60	$TEST_ROMS/19-010-StarsEffect.zip	--member StarsEffect.bin
+test-19-013-StarEffects.NTSC-StarEffects_(NTSC)	60	$TEST_ROMS/19-013-StarEffects.NTSC.zip	--member 'StarEffects (NTSC).bin'
+test-19-016-starfield-starfield	60	$TEST_ROMS/19-016-starfield.zip	--member starfield.bin
+test-213-087-testRESMPx-testRESMP0_(PAL)	60	$TEST_ROMS/213-087-testRESMPx.zip	--member 'testRESMP0 (PAL).bin' --machine pal
+test-213-087-testRESMPx-testRESMP0	60	$TEST_ROMS/213-087-testRESMPx.zip	--member testRESMP0.bin
+test-213-087-testRESMPx-testRESMP1_(PAL)	60	$TEST_ROMS/213-087-testRESMPx.zip	--member 'testRESMP1 (PAL).bin' --machine pal
+test-213-087-testRESMPx-testRESMP1	60	$TEST_ROMS/213-087-testRESMPx.zip	--member testRESMP1.bin
+test-246-089-oddhmovetest-oddhmovetest	60	$TEST_ROMS/246-089-oddhmovetest.zip	--member oddhmovetest/oddhmovetest.bin
+test-246-090-modified_test-oddhmovetest	60	$TEST_ROMS/246-090-modified_test.zip	--member oddhmovetest.bin
+test-250-100-3lb_doctor_emu-3lb_doctor_emu	60	$TEST_ROMS/250-100-3lb_doctor_emu.zip	--member 3lb_doctor_emu.bin
+test-250-101-3lb_doctor_emu.001-3lb_doctor_emu.001	60	$TEST_ROMS/250-101-3lb_doctor_emu.001.zip	--member 3lb_doctor_emu.001.bin
+test-265-108-ColorLoss-ColorLoss	60	$TEST_ROMS/265-108-ColorLoss.zip	--member ColorLoss.bin
+test-294-116-TestCX-TestCX_V1.1	60	$TEST_ROMS/294-116-TestCX.ZIP	--member 'TestCX V1.1.bin'
+test-294-118-TestCX.V1.3-TestCX_V1.3	60	$TEST_ROMS/294-118-TestCX.V1.3.zip	--member 'TestCX V1.3.bin'
+test-294-119-TestCX.V1.4-TestCX_V1.4	60	$TEST_ROMS/294-119-TestCX.V1.4.zip	--member 'TestCX V1.4.bin'
+test-294-123-test_modified-test_modified	60	$TEST_ROMS/294-123-test_modified.zip	--member test_modified.bin
+test-5-001-RSYNCtest-RSYNCtest	60	$TEST_ROMS/5-001-RSYNCtest.zip	--member RSYNCtest.bin
+test-548-128-TestCXM1-testCXM1	60	$TEST_ROMS/548-128-TestCXM1.zip	--member testCXM1.bin
+test-58-test-test	60	$TEST_ROMS/58-test.zip	--member test.bin
+test-606-129-TimerTest-TimerTest_T1024T_READ_1st_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_T1024T_READ_1st_WRAP.bin
+test-606-129-TimerTest-TimerTest_T1024T_READ_2nd_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_T1024T_READ_2nd_WRAP.bin
+test-606-129-TimerTest-TimerTest_T1024T_WRITE_1st_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_T1024T_WRITE_1st_WRAP.bin
+test-606-129-TimerTest-TimerTest_T1024T_WRITE_2nd_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_T1024T_WRITE_2nd_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM64T_READ_1st_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM64T_READ_1st_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM64T_READ_2nd_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM64T_READ_2nd_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM64T_WRITE_1st_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM64T_WRITE_1st_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM64T_WRITE_2nd_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM64T_WRITE_2nd_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM8T_READ_1st_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM8T_READ_1st_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM8T_READ_2nd_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM8T_READ_2nd_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM8T_WRITE_1st_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM8T_WRITE_1st_WRAP.bin
+test-606-129-TimerTest-TimerTest_TIM8T_WRITE_2nd_WRAP	60	$TEST_ROMS/606-129-TimerTest.zip	--member TimerTest_TIM8T_WRITE_2nd_WRAP.bin
+test-63-025-testcases-player16	60	$TEST_ROMS/63-025-testcases.zip	--member player16.bin
+test-63-025-testcases-player32	60	$TEST_ROMS/63-025-testcases.zip	--member player32.bin
+test-63-025-testcases-player8	60	$TEST_ROMS/63-025-testcases.zip	--member player8.bin
+test-63-041-testcase-player32_hblank	60	$TEST_ROMS/63-041-testcase.zip	--member player32_hblank.bin
+test-641-130-soccer_HMOVE-soccer_HW	60	$TEST_ROMS/641-130-soccer_HMOVE.zip	--member soccer_HW.bin
+test-641-130-soccer_HMOVE-soccer_WH	60	$TEST_ROMS/641-130-soccer_HMOVE.zip	--member soccer_WH.bin
+test-68-player_switching-player_switching	60	$TEST_ROMS/68-player_switching.zip	--member player_switching.bin
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_BL-10444D	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_BL.bin --machine pal --revision '10444D (reference)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_BL-PAL_7800	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_BL.bin --machine pal --revision 'PAL 7800 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_BL-SECAM_woody	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_BL.bin --machine pal --revision 'SECAM woody (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_BL-PAL_Jr._84	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_BL.bin --machine pal --revision 'PAL Jr. '"'"'84 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_BL-PAL_Jr._91	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_BL.bin --machine pal --revision 'PAL Jr. '"'"'91 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_BL-PAL_Vader	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_BL.bin --machine pal --revision 'PAL Vader (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_BL-PAL_light_sixer	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_BL.bin --machine pal --revision 'PAL light sixer (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M0-10444D	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M0.bin --machine pal --revision '10444D (reference)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M0-PAL_7800	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M0.bin --machine pal --revision 'PAL 7800 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M0-SECAM_woody	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M0.bin --machine pal --revision 'SECAM woody (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M0-PAL_Jr._84	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M0.bin --machine pal --revision 'PAL Jr. '"'"'84 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M0-PAL_Jr._91	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M0.bin --machine pal --revision 'PAL Jr. '"'"'91 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M0-PAL_Vader	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M0.bin --machine pal --revision 'PAL Vader (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M0-PAL_light_sixer	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M0.bin --machine pal --revision 'PAL light sixer (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M1-10444D	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M1.bin --machine pal --revision '10444D (reference)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M1-PAL_7800	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M1.bin --machine pal --revision 'PAL 7800 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M1-SECAM_woody	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M1.bin --machine pal --revision 'SECAM woody (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M1-PAL_Jr._84	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M1.bin --machine pal --revision 'PAL Jr. '"'"'84 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M1-PAL_Jr._91	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M1.bin --machine pal --revision 'PAL Jr. '"'"'91 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M1-PAL_Vader	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M1.bin --machine pal --revision 'PAL Vader (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_M1-PAL_light_sixer	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_M1.bin --machine pal --revision 'PAL light sixer (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P0-10444D	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P0.bin --machine pal --revision '10444D (reference)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P0-PAL_7800	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P0.bin --machine pal --revision 'PAL 7800 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P0-SECAM_woody	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P0.bin --machine pal --revision 'SECAM woody (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P0-PAL_Jr._84	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P0.bin --machine pal --revision 'PAL Jr. '"'"'84 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P0-PAL_Jr._91	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P0.bin --machine pal --revision 'PAL Jr. '"'"'91 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P0-PAL_Vader	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P0.bin --machine pal --revision 'PAL Vader (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P0-PAL_light_sixer	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P0.bin --machine pal --revision 'PAL light sixer (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P1-10444D	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P1.bin --machine pal --revision '10444D (reference)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P1-PAL_7800	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P1.bin --machine pal --revision 'PAL 7800 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P1-SECAM_woody	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P1.bin --machine pal --revision 'SECAM woody (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P1-PAL_Jr._84	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P1.bin --machine pal --revision 'PAL Jr. '"'"'84 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P1-PAL_Jr._91	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P1.bin --machine pal --revision 'PAL Jr. '"'"'91 (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P1-PAL_Vader	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P1.bin --machine pal --revision 'PAL Vader (#699)' --reset 0:4
+test-699-140-HMOVE_RESPx_v2-HMOVE_RESPx_P1-PAL_light_sixer	200	$TEST_ROMS/699-140-HMOVE_RESPx_v2.zip	--member HMOVE_RESPx_P1.bin --machine pal --revision 'PAL light sixer (#699)' --reset 0:4
+test-91-051-testcases-missile	60	$TEST_ROMS/91-051-testcases.zip	--member missile.bin
+test-91-051-testcases-missile_hblank	60	$TEST_ROMS/91-051-testcases.zip	--member missile_hblank.bin
+test-91-051-testcases-missile_hblank_var	60	$TEST_ROMS/91-051-testcases.zip	--member missile_hblank_var.bin
+test-91-051-testcases-missile_late_hblank_66	60	$TEST_ROMS/91-051-testcases.zip	--member missile_late_hblank_66.bin
+test-91-051-testcases-missile_late_hblank_69	60	$TEST_ROMS/91-051-testcases.zip	--member missile_late_hblank_69.bin
+test-91-051-testcases-missile_late_hblank_72	60	$TEST_ROMS/91-051-testcases.zip	--member missile_late_hblank_72.bin
+test-91-051-testcases-missile_late_hblank_75	60	$TEST_ROMS/91-051-testcases.zip	--member missile_late_hblank_75.bin
+test-91-056-testcases-missile	60	$TEST_ROMS/91-056-testcases.zip	--member missile.bin
+test-91-056-testcases-missile_hblank	60	$TEST_ROMS/91-056-testcases.zip	--member missile_hblank.bin
+test-91-056-testcases-missile_late_hblank_66	60	$TEST_ROMS/91-056-testcases.zip	--member missile_late_hblank_66.bin
+test-91-056-testcases-missile_late_hblank_69	60	$TEST_ROMS/91-056-testcases.zip	--member missile_late_hblank_69.bin
+test-91-056-testcases-missile_late_hblank_72	60	$TEST_ROMS/91-056-testcases.zip	--member missile_late_hblank_72.bin
+test-91-056-testcases-missile_late_hblank_75	60	$TEST_ROMS/91-056-testcases.zip	--member missile_late_hblank_75.bin
+test-97-068-timer.bin-timer	60	$TEST_ROMS/97-068-timer.bin.zip	--member timer.bin
+test-97-073-TimerTest_002-TimerTest_002	60	$TEST_ROMS/97-073-TimerTest_002.zip	--member TimerTest_002.bin
+test-97-076-TimerTest_003-TimerTest_003	60	$TEST_ROMS/97-076-TimerTest_003.zip	--member TimerTest_003.bin
+test-97-077-TimerTest_004-TimerTest_004	60	$TEST_ROMS/97-077-TimerTest_004.zip	--member TimerTest_004.bin
+hw-early_HMOVE-10444D	200	$HARDWARE/699-HMOVE_TEST.zip	--member HMOVE_TEST/early_HMOVE.bin --machine pal --revision '10444D (reference)' --reset 0:4
+hw-early_HMOVE-PAL_7800	200	$HARDWARE/699-HMOVE_TEST.zip	--member HMOVE_TEST/early_HMOVE.bin --machine pal --revision 'PAL 7800 (#699)' --reset 0:4
+hw-early_HMOVE-SECAM_woody	200	$HARDWARE/699-HMOVE_TEST.zip	--member HMOVE_TEST/early_HMOVE.bin --machine pal --revision 'SECAM woody (#699)' --reset 0:4
+hw-early_HMOVE-PAL_Jr._84	200	$HARDWARE/699-HMOVE_TEST.zip	--member HMOVE_TEST/early_HMOVE.bin --machine pal --revision 'PAL Jr. '"'"'84 (#699)' --reset 0:4
+hw-early_HMOVE-PAL_Jr._91	200	$HARDWARE/699-HMOVE_TEST.zip	--member HMOVE_TEST/early_HMOVE.bin --machine pal --revision 'PAL Jr. '"'"'91 (#699)' --reset 0:4
+hw-early_HMOVE-PAL_Vader	200	$HARDWARE/699-HMOVE_TEST.zip	--member HMOVE_TEST/early_HMOVE.bin --machine pal --revision 'PAL Vader (#699)' --reset 0:4
+hw-early_HMOVE-PAL_light_sixer	200	$HARDWARE/699-HMOVE_TEST.zip	--member HMOVE_TEST/early_HMOVE.bin --machine pal --revision 'PAL light sixer (#699)' --reset 0:4
+hw-HMOVE_RESPx-10444D	200	$HARDWARE/699-HMOVE_RESPx_test.zip	--member HMOVE_RESPx_test/HMOVE_RESPx.bin --machine pal --revision '10444D (reference)' --reset 0:4
+hw-HMOVE_RESPx-PAL_7800	200	$HARDWARE/699-HMOVE_RESPx_test.zip	--member HMOVE_RESPx_test/HMOVE_RESPx.bin --machine pal --revision 'PAL 7800 (#699)' --reset 0:4
+hw-HMOVE_RESPx-SECAM_woody	200	$HARDWARE/699-HMOVE_RESPx_test.zip	--member HMOVE_RESPx_test/HMOVE_RESPx.bin --machine pal --revision 'SECAM woody (#699)' --reset 0:4
+hw-HMOVE_RESPx-PAL_Jr._84	200	$HARDWARE/699-HMOVE_RESPx_test.zip	--member HMOVE_RESPx_test/HMOVE_RESPx.bin --machine pal --revision 'PAL Jr. '"'"'84 (#699)' --reset 0:4
+hw-HMOVE_RESPx-PAL_Jr._91	200	$HARDWARE/699-HMOVE_RESPx_test.zip	--member HMOVE_RESPx_test/HMOVE_RESPx.bin --machine pal --revision 'PAL Jr. '"'"'91 (#699)' --reset 0:4
+hw-HMOVE_RESPx-PAL_Vader	200	$HARDWARE/699-HMOVE_RESPx_test.zip	--member HMOVE_RESPx_test/HMOVE_RESPx.bin --machine pal --revision 'PAL Vader (#699)' --reset 0:4
+hw-HMOVE_RESPx-PAL_light_sixer	200	$HARDWARE/699-HMOVE_RESPx_test.zip	--member HMOVE_RESPx_test/HMOVE_RESPx.bin --machine pal --revision 'PAL light sixer (#699)' --reset 0:4
+die-retrigger	20	$DIE_CARTS/retrigger.bin	
+die-vblank_collisions	20	$DIE_CARTS/vblank_collisions.bin	
+die-hmove_cycles	20	$DIE_CARTS/hmove_cycles.bin	
+die-hmove_resp0	20	$DIE_CARTS/hmove_resp0.bin	
+die-grp_mid_draw	20	$DIE_CARTS/grp_mid_draw.bin	
+die-hmove_playfield	20	$DIE_CARTS/hmove_playfield.bin	
+die-ball_score	20	$DIE_CARTS/ball_score.bin	
+die-enable_mid_draw	20	$DIE_CARTS/enable_mid_draw.bin	
+die-hmove_wrap	20	$DIE_CARTS/hmove_wrap.bin	
+die-resp_start	20	$DIE_CARTS/resp_start.bin	
+die-hm_late	20	$DIE_CARTS/hm_late.bin	
+die-refp_mid_draw	20	$DIE_CARTS/refp_mid_draw.bin	
+die-hmove_wrap_end	20	$DIE_CARTS/hmove_wrap_end.bin	
+die-resm_end	20	$DIE_CARTS/resm_end.bin	
+die-starfield	20	$DIE_CARTS/starfield.bin	
+die-resmp_release	20	$DIE_CARTS/resmp_release.bin	
+smoke-Alpha Beam with Ernie (Japan, USA) (En)	150	$ROMS/Alpha Beam with Ernie (Japan, USA) (En).zip	
+smoke-Alpha Beam with Ernie (Europe)	150	$ROMS/Alpha Beam with Ernie (Europe).zip	--machine pal
+smoke-Meteor Defense (Europe)	150	$ROMS/Meteor Defense (Europe).zip	--machine pal
+smoke-Missile War ~ Astro War (Europe)	150	$ROMS/Missile War ~ Astro War (Europe).zip	--machine pal
+smoke-Raumpatrouille (USA)	150	$ROMS/Raumpatrouille (USA).zip	
+smoke-StarMaster (USA)	150	$ROMS/StarMaster (USA).zip	
+smoke-Starmaster - International Edition (Europe)	150	$ROMS/Starmaster - International Edition (Europe).zip	--machine pal
+smoke-RealSports Volleyball (USA, Europe) (En,Fr,De,Es,It)	150	$ROMS/RealSports Volleyball (USA, Europe) (En,Fr,De,Es,It).zip	
+smoke-Bugs (USA)	150	$ROMS/Bugs (USA).zip	
+smoke-Berenstain Bears (USA)	150	$ROMS/Berenstain Bears (USA).zip	
+smoke-Surfer's Paradise - But Danger Below! (Europe)	150	$ROMS/Surfer's Paradise - But Danger Below! (Europe).zip	--machine pal
+smoke-Title Match Pro Wrestling (USA)	150	$ROMS/Title Match Pro Wrestling (USA).zip	
+smoke-RealSports Boxing (USA, Europe) (En,Fr,De,Es,It)	150	$ROMS/RealSports Boxing (USA, Europe) (En,Fr,De,Es,It).zip	
+smoke-Battlezone (Japan, USA) (En)	150	$ROMS/Battlezone (Japan, USA) (En).zip	
+smoke-Cosmic Creeps (USA)	150	$ROMS/Cosmic Creeps (USA).zip	
+smoke-Lost Luggage (USA)	150	$ROMS/Lost Luggage (USA).zip	
+smoke-Worm War I (USA)	150	$ROMS/Worm War I (USA).zip	
+smoke-Frostbite (USA)	150	$ROMS/Frostbite (USA).zip	
+smoke-kleine Bar, Der (Germany)	150	$ROMS/kleine Bar, Der (Germany).zip	
+smoke-Bump 'n' Jump (Europe)	150	$ROMS/Bump 'n' Jump (Europe).zip	--machine pal
+smoke-Hangman ~ Spelling (USA)	150	$ROMS/Hangman ~ Spelling (USA).zip	
+smoke-Maze Craze - A Game of Cops 'n Robbers ~ Maze Mania - A Game of Cops 'n Robbers (USA)	150	$ROMS/Maze Craze - A Game of Cops 'n Robbers ~ Maze Mania - A Game of Cops 'n Robbers (USA).zip	
+smoke-Labyrinth (Europe)	150	$ROMS/Labyrinth (Europe).zip	--machine pal
+smoke-Coco Nuts (USA)	150	$ROMS/Coco Nuts (USA).zip	
+smoke-Quest for Quintana Roo (USA)	150	$ROMS/Quest for Quintana Roo (USA).zip	
+smoke-Pick 'n' Pile (Europe)	150	$ROMS/Pick 'n' Pile (Europe).zip	--machine pal
+smoke-Atari Video Cube (USA)	150	$ROMS/Atari Video Cube (USA).zip	
+smoke-Bank Heist (Europe)	150	$ROMS/Bank Heist (Europe).zip	--machine pal
+smoke-Cross Force (USA)	150	$ROMS/Cross Force (USA).zip	
+smoke-Dan Kitchen's Tomcat - The F-14 Fighter Simulator (Europe)	150	$ROMS/Dan Kitchen's Tomcat - The F-14 Fighter Simulator (Europe).zip	--machine pal
+smoke-Ice Hockey (USA)	150	$ROMS/Ice Hockey (USA).zip	
+smoke-Motocross (Europe) (Quelle)	150	$ROMS/Motocross (Europe) (Quelle).zip	--machine pal
+smoke-RealSports Tennis (USA, Europe) (En,Fr,De,Es,It)	150	$ROMS/RealSports Tennis (USA, Europe) (En,Fr,De,Es,It).zip	
+smoke-Snoopy and the Red Baron (USA)	150	$ROMS/Snoopy and the Red Baron (USA).zip	
+smoke-Spacechase (USA)	150	$ROMS/Spacechase (USA).zip	
+smoke-Spike's Peak (USA)	150	$ROMS/Spike's Peak (USA).zip	
+smoke-Combat (USA, Europe) (Atari Anthology)	150	$ROMS/Combat (USA, Europe) (Atari Anthology).zip	
+smoke-Adventure (USA)	150	$ROMS/Adventure (USA).zip	
+smoke-Pitfall! - Pitfall Harry's Jungle Adventure (USA)	150	$ROMS/Pitfall! - Pitfall Harry's Jungle Adventure (USA).zip	
+smoke-River Raid (USA)	150	$ROMS/River Raid (USA).zip	
+smoke-Space Invaders (USA)	150	$ROMS/Space Invaders (USA).zip	
+smoke-Asteroids (Japan, USA) (En)	150	$ROMS/Asteroids (Japan, USA) (En).zip	
+smoke-Pac-Man (USA)	150	$ROMS/Pac-Man (USA).zip	
+smoke-Ms. Pac-Man (USA)	150	$ROMS/Ms. Pac-Man (USA).zip	
+smoke-Missile Command (USA)	150	$ROMS/Missile Command (USA).zip	
+smoke-Yars' Revenge (USA)	150	$ROMS/Yars' Revenge (USA).zip	
+smoke-Breakout ~ Breakaway IV (Japan, USA) (En)	150	$ROMS/Breakout ~ Breakaway IV (Japan, USA) (En).zip	
+smoke-Kaboom! (USA)	150	$ROMS/Kaboom! (USA).zip	
+smoke-Enduro (USA)	150	$ROMS/Enduro (USA).zip	
+smoke-H.E.R.O. (USA)	150	$ROMS/H.E.R.O. (USA).zip	
+smoke-Donkey Kong (USA)	150	$ROMS/Donkey Kong (USA).zip	
+smoke-Defender (USA)	150	$ROMS/Defender (USA).zip	
+smoke-Haunted House (USA)	150	$ROMS/Haunted House (USA).zip	
+smoke-MegaMania - A Space Nightmare (USA)	150	$ROMS/MegaMania - A Space Nightmare (USA).zip	
+smoke-Berzerk (Japan, USA) (En)	150	$ROMS/Berzerk (Japan, USA) (En).zip	
+smoke-Freeway (USA)	150	$ROMS/Freeway (USA).zip	
+smoke-Demon Attack (USA) (Rev 1)	150	$ROMS/Demon Attack (USA) (Rev 1).zip	
+smoke-Atlantis (USA)	150	$ROMS/Atlantis (USA).zip	
+smoke-Frogger (USA)	150	$ROMS/Frogger (USA).zip	
+smoke-Keystone Kapers (USA)	150	$ROMS/Keystone Kapers (USA).zip	
+smoke-Seaquest (USA)	150	$ROMS/Seaquest (USA).zip	
+smoke-Chopper Command (USA)	150	$ROMS/Chopper Command (USA).zip	
+smoke-Warlords (USA)	150	$ROMS/Warlords (USA).zip	
+smoke-Video Olympics ~ Pong Sports (USA)	150	$ROMS/Video Olympics ~ Pong Sports (USA).zip	
+smoke-Air-Sea Battle ~ Target Fun (Japan, USA) (En)	150	$ROMS/Air-Sea Battle ~ Target Fun (Japan, USA) (En).zip	
+smoke-Cosmic Ark (USA)	150	$ROMS/Cosmic Ark (USA).zip	
+smoke-Galaxian (USA)	150	$ROMS/Galaxian (USA).zip	
+smoke-Solaris (USA)	150	$ROMS/Solaris (USA).zip	
+smoke-Video Chess (USA)	150	$ROMS/Video Chess (USA).zip	
+smoke-Dragster (USA)	150	$ROMS/Dragster (USA).zip	
+smoke-Grand Prix (USA)	150	$ROMS/Grand Prix (USA).zip	
+smoke-Barnstorming (USA)	150	$ROMS/Barnstorming (USA).zip	
+smoke-Stampede (USA)	150	$ROMS/Stampede (USA).zip	
+smoke-Night Driver (USA)	150	$ROMS/Night Driver (USA).zip	
+smoke-Circus Atari (Japan, USA) (En)	150	$ROMS/Circus Atari (Japan, USA) (En).zip	
+smoke-Space Shuttle - A Journey into Space (USA)	150	$ROMS/Space Shuttle - A Journey into Space (USA).zip	
+smoke-Private Eye (USA)	150	$ROMS/Private Eye (USA).zip	
+smoke-Star Raiders (USA)	150	$ROMS/Star Raiders (USA).zip	
+smoke-Venture (USA)	150	$ROMS/Venture (USA).zip	
+smoke-Centipede (Japan, USA) (En)	150	$ROMS/Centipede (Japan, USA) (En).zip	
+smoke-Phoenix (USA)	150	$ROMS/Phoenix (USA).zip	
+smoke-Jungle Hunt (USA)	150	$ROMS/Jungle Hunt (USA).zip	
+smoke-Mario Bros. (USA)	150	$ROMS/Mario Bros. (USA).zip	
+smoke-Crystal Castles (USA)	150	$ROMS/Crystal Castles (USA).zip	
+smoke-Dig Dug (USA)	150	$ROMS/Dig Dug (USA).zip	
+smoke-Jr. Pac-Man (USA)	150	$ROMS/Jr. Pac-Man (USA).zip	
+smoke-Stargate (USA)	150	$ROMS/Stargate (USA).zip	
+smoke-Fatal Run (USA)	150	$ROMS/Fatal Run (USA).zip	
+smoke-Crystal Castles (Europe)	150	$ROMS/Crystal Castles (Europe).zip	--machine pal
+smoke-Combat (Europe)	150	$ROMS/Combat (Europe).zip	--machine pal
+smoke-River Raid (Europe)	150	$ROMS/River Raid (Europe).zip	--machine pal
+smoke-Space Invaders (Europe)	150	$ROMS/Space Invaders (Europe).zip	--machine pal
+smoke-Enduro (Europe)	150	$ROMS/Enduro (Europe).zip	--machine pal
+smoke-Montezuma's Revenge - Featuring Panama Joe (USA)	150	$ROMS/Montezuma's Revenge - Featuring Panama Joe (USA).zip	
+smoke-Popeye (USA)	150	$ROMS/Popeye (USA).zip	
+smoke-River Patrol (USA)	150	$ROMS/River Patrol (USA).zip	
+smoke-Espial (USA)	150	$ROMS/Espial (USA).zip	
+smoke-Miner 2049er Volume II (USA)	150	$ROMS/Miner 2049er Volume II (USA).zip	
+smoke-Robot Tank (USA)	150	$ROMS/Robot Tank (USA).zip	
+smoke-Activision Decathlon, The (USA)	150	$ROMS/Activision Decathlon, The (USA).zip	
+smoke-BurgerTime (USA)	150	$ROMS/BurgerTime (USA).zip	
+smoke-Bump 'n' Jump (USA)	150	$ROMS/Bump 'n' Jump (USA).zip	
+smoke-Omega Race (USA)	150	$ROMS/Omega Race (USA).zip	
+smoke-Video Life (USA)	150	$ROMS/Video Life (USA).zip	
+smoke-MegaBoy (USA)	150	$ROMS/MegaBoy (USA).zip	
+smoke-32 in 1 Game Cartridge (Europe, Australia)	150	$ROMS/32 in 1 Game Cartridge (Europe, Australia).zip	--machine pal
+smoke-David Crane's Pitfall II - Lost Caverns (USA)	150	$ROMS/David Crane's Pitfall II - Lost Caverns (USA).zip	
+smoke-Killer Satellites (USA)	150	$ROMS/Killer Satellites (USA).zip	
+smoke-Phaser Patrol (USA)	150	$ROMS/Phaser Patrol (USA).zip	
+smoke-Dragonstomper (USA)	150	$ROMS/Dragonstomper (USA).zip	
+smoke-Fireball (USA)	150	$ROMS/Fireball (USA).zip	
+smoke-Escape from the Mindmaster (USA)	150	$ROMS/Escape from the Mindmaster (USA).zip	
+long-pitfall	3000	$ROMS/Pitfall! - Pitfall Harry's Jungle Adventure (USA).zip	--reset 30:60 --joy 0:r@100:400 --joy 0:rf@400:410 --joy 0:l@600:900 --joy 0:d@1000:1100 --joy 0:r@1200:2400
+long-river-raid	2000	$ROMS/River Raid (USA).zip	--reset 30:60 --joy 0:uf@100:700 --joy 0:lf@700:800 --joy 0:rf@800:900 --joy 0:u@900:1900
+long-adventure	2000	$ROMS/Adventure (USA).zip	--select 20:30 --reset 40:70 --joy 0:u@100:300 --joy 0:r@300:600 --joy 0:d@600:800 --joy 0:f@800:820
+long-kaboom	1500	$ROMS/Kaboom! (USA).zip	--paddle 0:0.5@0 --reset 30:60 --paddle 0:0.2@200 --paddle 0:0.8@400 --paddle 0:0.35@700 --paddle 0:0.6@1000
+long-space-invaders	2000	$ROMS/Space Invaders (USA).zip	--reset 30:60 --joy 0:f@100:1900 --joy 0:r@300:500 --joy 0:l@700:900
+long-pitfall-ii	2000	$ROMS/David Crane's Pitfall II - Lost Caverns (USA).zip	--reset 30:60 --joy 0:r@100:500 --joy 0:rf@500:510 --joy 0:r@600:1500
+long-combat-pal	1000	$ROMS/Combat (Europe).zip	--machine pal --reset 30:60 --joy 0:u@100:500 --joy 1:uf@100:600
+long-burgertime	1500	$ROMS/BurgerTime (USA).zip	--reset 30:60 --joy 0:r@100:400 --joy 0:l@400:700
+long-decathlon	1500	$ROMS/Activision Decathlon, The (USA).zip	--reset 30:60 --joy 0:lr@100:900
+long-dragonstomper	1500	$ROMS/Dragonstomper (USA).zip	--reset 30:60 --joy 0:f@100:110 --joy 0:r@200:600

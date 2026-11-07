@@ -1,0 +1,39 @@
+name: CI
+
+# Kept small: main and pull requests, superseded runs cancelled. The reference
+# (a2600-python) is private and the ROMs are local, so the lockstep rungs
+# (2-5) run by hand (README); CI runs the build and rung 1, the TIA against
+# tia-fpga's public die traces.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    name: fmt, clippy, test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: cargo fmt --check
+      - run: cargo clippy --release --all-targets -- -D warnings
+      - run: cargo test --release
+
+  die:
+    name: "rung 1: the TIA against the die"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: scripts/fetch_traces.sh
+      - run: scripts/rung1.sh external/tia-fpga/sim/traces

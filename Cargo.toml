@@ -1,0 +1,24 @@
+[package]
+name = "a2600-rust"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+description = "A Rust Atari 2600 board transcribed from, and proven equivalent to, a2600-python"
+license = "MIT"
+repository = "https://github.com/alewman/a2600-rust"
+publish = false
+
+[lib]
+name = "a2600_rust"
+
+[dependencies]
+# 6502-rust (crate sixfiveohtwo), transcribed from 6502-python 741419a, the
+# revision a2600-python pins at a2600-rust-pin-1.
+sixfiveohtwo = { git = "https://github.com/alewman/6502-rust", rev = "71747eb9036702109fb206eb9fe88174a9dcc989" }
+
+# Reading .zip images (the reference uses Python's zipfile) and the PNG's IDAT.
+zip = { version = "2", default-features = false, features = ["deflate"] }
+flate2 = "1"
+
+[profile.release]
+debug = 1
